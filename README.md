@@ -40,3 +40,9 @@ open "build/撮影日セッター.app"
 ```bash
 swift Tools/make_icon.swift . && iconutil -c icns build/AppIcon.iconset -o Resources/AppIcon.icns
 ```
+
+## ライセンス
+
+[MIT](LICENSE)
+
+※ 写真ファイルを直接書き換えるアプリです。大事な写真はバックアップを取ってから使ってください。
