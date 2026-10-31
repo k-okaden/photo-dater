@@ -1,5 +1,7 @@
 # 撮影日セッター (PhotoDater)
 
+<img src="Resources/AppIcon.png" width="128" alt="アイコン">
+
 写真フォルダをドラッグ&ドロップすると、フォルダ名 `yymmdd` の日付を撮影日として EXIF に書き込む macOS アプリ。
 
 ## 機能
@@ -31,4 +33,10 @@
 ```bash
 ./build.sh
 open "build/撮影日セッター.app"
+```
+
+アイコンを作り直すとき:
+
+```bash
+swift Tools/make_icon.swift . && iconutil -c icns build/AppIcon.iconset -o Resources/AppIcon.icns
 ```
